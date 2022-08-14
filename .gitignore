@@ -12,6 +12,7 @@ build/
 develop-eggs/
 downloads/
 eggs/
+.idea
 .eggs/
 lib/
 lib64/
