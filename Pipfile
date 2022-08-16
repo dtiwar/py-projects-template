@@ -4,9 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyprojtemplete = "*"
 setuptools = "*"
-
 [dev-packages]
 autopep8 = "*"
 
