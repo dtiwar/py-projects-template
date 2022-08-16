@@ -1,11 +1,13 @@
-from importlib.resources import read_text
-import setuptools
+"""
+This is sample setup.py
+
+"""
 from pathlib import Path
+import setuptools
 
 setuptools.setup(
-
-    name="py-projects-template",
-    version=1.0,
-    long_description=Path("README.md").read_text(),
-    packages=setuptools.find_packages(exclude=["tests", "data"])
+    name="python-basic",
+    version='1.0',
+    long_description=Path("README.md").read_text(encoding='utf-8'),
+    packages=setuptools.find_packages(exclude=["tests", "data","python-utils","secrets"])
 )
